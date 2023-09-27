@@ -1,0 +1,15 @@
+{
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "semi": true,
+  "trailingComma": "all",
+  "endOfLine": "lf",
+  "printWidth": 80,
+  "prettier/prettier": [
+    "error",
+    {
+      "singleQuote": false,
+      "parser": "flow"
+    }
+  ]
+}
