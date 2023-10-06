@@ -21,6 +21,7 @@ export class PostsService {
     }
 
     async update(id: string, post: Post): Promise<Post> {
+        console.log('id ====> ', id, 'post ====> ', post);
         return await this.postModel.findByIdAndUpdate({ _id: id }, post, { new: true })
     }
 

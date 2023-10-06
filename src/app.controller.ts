@@ -1,6 +1,7 @@
 import { Controller } from '@nestjs/common';
 
-@Controller()
+@Controller('auth')
 export class AppController {
   constructor() { }
+
 }
